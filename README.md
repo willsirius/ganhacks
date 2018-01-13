@@ -130,6 +130,9 @@ while lossG > B:
 - Apply on several layers of our generator at both training and test time
 - https://arxiv.org/pdf/1611.07004v1.pdf
 
+## 18: Update the generator more frequently
+- Update the generator network 2x more frequently than the discriminator network
+- Reasoning: Avoid fast convergence of discriminator network.
 
 ## Authors
 - Soumith Chintala
